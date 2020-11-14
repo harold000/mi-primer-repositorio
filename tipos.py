@@ -92,7 +92,7 @@ nota_alumno=input("ingresa la nota del alumno  ")
 def evaluacion(nota): 
     valoracion="aprobado"
     if nota<5: 
-        valoracion="suspendido"
+        valoracion="suspendido por esta vez"
     return valoracion 
 
 print(evaluacion(int(nota_alumno)))
